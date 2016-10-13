@@ -33,3 +33,37 @@ ul {
 li {
   display: inline-block;
 }
+
+.section-daek {
+  background-color: #e2e2e2;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: #0074d9;
+}
+
+a:hover, .current:visited, .current {
+  background-color: #0074d9;
+  color: #fff;
+}
+
+
+@media only screen and (min-width: 60em) {
+
+  header {
+    text-align: left;
+  }
+}
+
+
+@media only screen and (min-width: 90em) {
+
+  h1 {
+    text-align: left;
+  }
+
+  ul{
+    text-align: right;
+  }
+}
