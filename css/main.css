@@ -48,7 +48,6 @@ a:hover, .current:visited, .current {
   color: #fff;
 }
 
-
 @media only screen and (min-width: 60em) {
 
   header {
@@ -56,14 +55,13 @@ a:hover, .current:visited, .current {
   }
 }
 
-
 @media only screen and (min-width: 90em) {
 
   h1 {
     text-align: left;
   }
 
-  ul{
+  ul {
     text-align: right;
   }
 }
